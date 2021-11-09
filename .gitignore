@@ -1,0 +1,19 @@
+## Terraform section
+/terraform/.terraform/
+*.lock.*
+*.tfstate*
+
+private.*
+!*.tfvars.simple
+
+## Docker section
+
+## Test section
+
+/test/*
+notes.md
+
+# Draft folder
+
+/draft/*
+/terraform/user-data/
